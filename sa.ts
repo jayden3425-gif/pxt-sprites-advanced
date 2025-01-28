@@ -25,4 +25,8 @@ namespace advanced {
     export function flipVertically(sprite: Sprite) {
         sprite.image.flipY();
     }
+
+    export function draw() {
+        return
+    }
 }
