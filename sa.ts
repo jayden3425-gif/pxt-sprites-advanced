@@ -25,7 +25,7 @@ namespace advanced {
     export function flipVertically(sprite: Sprite) {
         sprite.image.flipY();
     }
-    //% block="on paint do $a"
+    //% block="on paint do"
     export function draw(a: () => void) {
         game.onPaint(a)
     }
